@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(247, 223, 85);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+  margin: 80px;
+}
+.hover {
+  background-color: white;
+  z-index: 1;
+  border-radius: 15px;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 10px black;
+}
+.hover img {
+  width: fit-content;
+  height: auto;
+  border-radius: 15px;
+}
+.highlight {
+  background-color: rgb(247, 223, 85);
+  font-weight: bold;
+  display: inline !important;
+  border-radius: 10px;
+  padding: 5px;
+}
+.statement {
+  color: grey;
+}
+.profile_details {
+  display: flex;
+  align-items: center;
+}
+.profile_details img {
+  width: 40px;
+  height: auto;
+  border-radius: 0px;
+}
+.profile_details p {
+  font-weight: bolder;
+  padding-left: 5px;
+}
